@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+.container{
+    max-width: 1030px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 110px;
+}
+.header__inner{
+    text-align: center;
+    width: 530px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 10px solid #f4d4a5;
+    padding-top: 13px;
+    margin-left: 12%;
+}
+.header__name{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #bf4200;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.phone{
+    font-weight: 300;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+.header__title{
+    color: #1fad26;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 0 5px;
+    margin-bottom: 43px;
+}
+.main, 
+.footer{
+    text-align: center;
+}
+.main__title{
+    color: #d07a2d;
+    font-size: 41px;
+    margin: 70px 0;
+}
+.main__text{
+    font-size: 30px;
+    margin-bottom: 93px;
+}
+.main__img{
+    margin:90px 0;
+}
+.projects__title{
+    font-weight: 700;
+    font-size: 41px;
+    color: #d0662d;
+}
+.project__name{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+.project__size,
+.project__area,
+.project__price{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.project__price{
+    color: #17753b;
+    margin-bottom: 28px;
+}
+.main__download{
+    margin-top: 170px;
+    background-color: #f1dfbc;
+    padding-top: 39px;
+    padding-bottom: 35px;
+}
+.main__download img{
+    display: block;
+    margin: 0 auto;
+}
+.main__download a{
+    border: 5px solid #effd15;
+    background-color: #17753b;
+    padding: 25px 35px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.gallery__title{
+    margin-top: 120px;
+    font-size: 41px;
+    color: #d07a2d;
+    font-weight: 700;
+}
+.gallery__text{
+    font-size: 30px;
+    margin-top: 45px;
+}
+.gallery__inner{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__inner img{
+    display: block;
+}
+.footer a{
+    display: block;
+}
+.footer .phone{
+    font-weight: 700;
+    font-size: 41px;
+}
+.footer__mail{
+    font-weight: 300;
+    text-decoration: underline;
+    color: #2f8bc5;
+    margin-bottom: 195px;
+}
