@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -24,8 +27,8 @@ a{
 }
 .header__inner{
     text-align: center;
-    width: 530px;
-    height: 530px;
+    width: 53rem;
+    height: 53rem;
     background-color: #fff;
     border-radius: 50%;
     border: 10px solid #f4d4a5;
@@ -38,46 +41,48 @@ a{
     text-transform: uppercase;
     color: #bf4200;
     font-family: 'Lato', sans-serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 .phone{
     font-weight: 300;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 300;
     margin-bottom: 45px;
 }
 .header__title{
     color: #1fad26;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 5rem;
     text-transform: uppercase;
     padding: 0 5px;
     margin-bottom: 43px;
 }
+
 .main, 
 .footer{
     text-align: center;
 }
 .main__title{
     color: #d07a2d;
-    font-size: 41px;
+    font-size: 4.1rem;
     margin: 70px 0;
 }
 .main__text{
-    font-size: 30px;
+    font-size: 3rem;
     margin-bottom: 93px;
+    line-height: 1.4;
 }
 .main__img{
     margin:90px 0;
 }
 .projects__title{
     font-weight: 700;
-    font-size: 41px;
+    font-size: 4.1rem;
     color: #d0662d;
 }
 .project__name{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
     margin-top: 120px;
     margin-bottom: 10px;
@@ -85,8 +90,12 @@ a{
 .project__size,
 .project__area,
 .project__price{
-    font-size: 25px;
+    font-size: 2.5rem;
     margin-bottom: 10px;
+}
+.project__images img{
+    width: 100%;
+    height: auto;
 }
 .project__price{
     color: #17753b;
@@ -107,24 +116,25 @@ a{
     background-color: #17753b;
     padding: 25px 35px;
     color: #fff;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
     text-decoration: underline;
 }
 .gallery__title{
     margin-top: 120px;
-    font-size: 41px;
+    font-size: 4.1rem;
     color: #d07a2d;
     font-weight: 700;
 }
 .gallery__text{
-    font-size: 30px;
+    font-size: 3rem;
     margin-top: 45px;
 }
 .gallery__inner{
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .gallery__inner img{
     display: block;
@@ -134,11 +144,13 @@ a{
 }
 .footer .phone{
     font-weight: 700;
-    font-size: 41px;
+    font-size: 4.1rem;
 }
 .footer__mail{
     font-weight: 300;
     text-decoration: underline;
     color: #2f8bc5;
     margin-bottom: 195px;
+    font-size: 16px;
 }
+
